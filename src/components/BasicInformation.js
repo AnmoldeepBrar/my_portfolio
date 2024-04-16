@@ -1,8 +1,10 @@
 import React from 'react';
+import projectImages from '../images/p.jpg'; 
 
 const BasicInformation = () => {
   return (
     <div className="basic-info-container">
+       <img src={projectImages} alt="Profile" className="profile-image" />
       <h1>Full Stack Web developers</h1>
       <h2>Web programmer</h2>
       <div className="info-box">

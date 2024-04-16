@@ -14,7 +14,7 @@ const Work = () => {
             Implemented interactive features including search functionality, category filters, and responsive design to enhance user experience.<br />
             Utilized modern web development techniques to create an intuitive and visually appealing interface, resulting in improved accessibility and user engagement.
           </p>
-          <img src={projectImages} alt="Project 2" />
+          <img src={projectImages} alt="Project 1" style={{ width: '200px', height: '200px' }} />
           <a href="https://www.brars.com/">Project Link</a>
         </li>
         <li>
@@ -24,7 +24,7 @@ const Work = () => {
             Integrated Database Management System for efficient data management and retrieval, ensuring seamless operation of the library platform.<br />
             Implemented user authentication and authorization functionalities to ensure secure access to library resources, enhancing data privacy and system integrity.
           </p>
-          <img src={projectImage} alt="Project 2" />
+          <img src={projectImage} alt="Project 2" style={{ width: '200px', height: '200px' }} />
           <a href="https://www.brars.com/">Project Link</a>
         </li>
         {/* Add more projects here */}
