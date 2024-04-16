@@ -1,0 +1,167 @@
+/* App.css */
+
+/* Apply styles to the entire body */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  background-color: rgb(208, 229, 242);
+}
+
+/* Apply styles to the header */
+header {
+  background-color: #6a09e9;
+  color: #fff; /* Changed text color to white */
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem; /* Added margin to separate from other sections */
+}
+
+/* Apply styles to the container */
+.container {
+  max-width: 800px; /* Reduced max-width for better readability */
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff; /* Added background color to container */
+  border-radius: 8px; /* Added border-radius for container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for container */
+}
+
+/* Apply styles to section headings */
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #5b83d5;
+}
+
+/* Apply styles to project sections */
+.project {
+  background-color: #7988e5;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px; /* Added border-radius for projects */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply styles to project headings */
+.project h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #fff; /* Changed text color to white */
+}
+
+/* Apply styles to project links */
+.project a {
+  display: inline-block;
+  background-color: #6793e0;
+  color: #fff; /* Changed text color to white */
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Apply styles to list items */
+.skills-list li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.tool-box {
+  border: 1px solid #e8e7e7;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33.33% - 20px); /* Distribute tools evenly in a horizontal row */
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.basic-info-container {
+  background-color: #e5e5e6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-content {
+  background-color: #e7e5e5;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #e4e5e6;
+}
+
+.info-content p {
+  margin-bottom: 20px;
+}
+
+.basic-info-container {
+  background-color: #ebeaea;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.tech-list-container {
+  background-color: #e3e4e6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tech-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tech-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.tech-list li svg {
+  margin-right: 10px;
+}
+
+.resources-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resource-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.resource-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resource-box a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resource-box p {
+  color: #666;
+}
